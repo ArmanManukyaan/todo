@@ -1,0 +1,186 @@
+2023-12-04 13:16:24,782 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-12-04 13:16:24,814 INFO o.s.b.StartupInfoLogger [restartedMain] Starting TodoRestApplication using Java 17.0.9 with PID 10076 (C:\Users\Arman\IdeaProjects\todo-rest\target\classes started by Arman in C:\Users\Arman\IdeaProjects\todo-rest)
+2023-12-04 13:16:24,815 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-12-04 13:16:24,855 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-12-04 13:16:24,857 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-12-04 13:16:25,637 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-04 13:16:25,700 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 57 ms. Found 3 JPA repository interfaces.
+2023-12-04 13:16:26,215 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-12-04 13:16:26,222 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-12-04 13:16:26,223 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-12-04 13:16:26,223 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-12-04 13:16:26,267 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-12-04 13:16:26,268 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1409 ms
+2023-12-04 13:16:26,349 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-12-04 13:16:26,607 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@231024eb
+2023-12-04 13:16:26,609 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-12-04 13:16:27,021 INFO l.l.c.JavaLogger [restartedMain] Reading from todorest.DATABASECHANGELOG
+2023-12-04 13:16:27,031 INFO l.l.c.JavaLogger [restartedMain] Changelog query completed.
+2023-12-04 13:16:27,109 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-04 13:16:27,152 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-12-04 13:16:27,155 INFO o.h.c.Environment [restartedMain] HHH000406: Using bytecode reflection optimizer
+2023-12-04 13:16:27,266 INFO o.h.b.i.BytecodeProviderInitiator [restartedMain] HHH000021: Bytecode provider name : bytebuddy
+2023-12-04 13:16:27,386 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-04 13:16:27,421 INFO o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.34
+2023-12-04 13:16:27,557 INFO o.h.b.i.BytecodeProviderInitiator [restartedMain] HHH000021: Bytecode provider name : bytebuddy
+2023-12-04 13:16:28,065 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-04 13:16:28,150 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-04 13:16:28,637 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-04 13:16:28,873 INFO o.s.s.w.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5bc83f41, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7b1393b6, org.springframework.security.web.context.SecurityContextHolderFilter@4ac7f667, org.springframework.security.web.header.HeaderWriterFilter@224c69d6, org.springframework.security.web.authentication.logout.LogoutFilter@7c59ea99, com.example.todorest.filter.JWTAuthenticationTokenFilter@e33d267, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@23d7a7d2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@59d59276, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@78e65b00, org.springframework.security.web.session.SessionManagementFilter@17ee8634, org.springframework.security.web.access.ExceptionTranslationFilter@5132c917, org.springframework.security.web.access.intercept.AuthorizationFilter@6e99dc42]
+2023-12-04 13:16:29,047 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-12-04 13:16:29,059 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-12-04 13:16:29,074 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-12-04 13:16:29,082 INFO o.s.b.StartupInfoLogger [restartedMain] Started TodoRestApplication in 4.564 seconds (process running for 6.192)
+2023-12-04 13:16:41,779 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-04 13:16:41,780 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-12-04 13:16:41,783 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 2 ms
+2023-12-04 13:16:42,447 INFO c.e.t.s.i.UserServiceImpl [http-nio-8080-exec-2] Aryhjyjyjyjyjyj
+2023-12-04 13:17:21,012 INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener [File Watcher] Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-12-04 13:17:21,023 INFO o.a.j.l.DirectJDKLog [Thread-5] Pausing ProtocolHandler ["http-nio-8080"]
+2023-12-04 13:17:21,023 INFO o.a.j.l.DirectJDKLog [Thread-5] Stopping service [Tomcat]
+2023-12-04 13:17:21,024 INFO o.a.j.l.DirectJDKLog [Thread-5] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-12-04 13:17:21,027 WARN o.a.j.l.DirectJDKLog [Thread-5] The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.9/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.9/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.9/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.9/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.9/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.9/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.9/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.9/java.lang.Thread.run(Thread.java:840)
+2023-12-04 13:17:21,027 WARN o.a.j.l.DirectJDKLog [Thread-5] The web application [ROOT] appears to have started a thread named [task-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.9/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.9/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.9/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:460)
+ java.base@17.0.9/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+ java.base@17.0.9/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.9/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.9/java.lang.Thread.run(Thread.java:840)
+2023-12-04 13:17:21,028 INFO o.a.j.l.DirectJDKLog [Thread-5] Stopping ProtocolHandler ["http-nio-8080"]
+2023-12-04 13:17:21,031 INFO o.a.j.l.DirectJDKLog [Thread-5] Destroying ProtocolHandler ["http-nio-8080"]
+2023-12-04 13:17:21,034 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-04 13:17:21,037 INFO c.z.h.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2023-12-04 13:17:21,044 INFO c.z.h.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
+2023-12-04 13:17:21,116 INFO o.s.b.StartupInfoLogger [restartedMain] Starting TodoRestApplication using Java 17.0.9 with PID 10076 (C:\Users\Arman\IdeaProjects\todo-rest\target\classes started by Arman in C:\Users\Arman\IdeaProjects\todo-rest)
+2023-12-04 13:17:21,118 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-12-04 13:17:21,325 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-04 13:17:21,351 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 26 ms. Found 3 JPA repository interfaces.
+2023-12-04 13:17:21,428 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-12-04 13:17:21,428 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-12-04 13:17:21,429 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-12-04 13:17:21,429 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-12-04 13:17:21,443 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-12-04 13:17:21,444 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 324 ms
+2023-12-04 13:17:21,465 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2023-12-04 13:17:21,480 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@739a76d6
+2023-12-04 13:17:21,480 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2023-12-04 13:17:21,495 INFO l.l.c.JavaLogger [restartedMain] Reading from todorest.DATABASECHANGELOG
+2023-12-04 13:17:21,497 INFO l.l.c.JavaLogger [restartedMain] Changelog query completed.
+2023-12-04 13:17:21,518 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-04 13:17:21,524 INFO o.h.b.i.BytecodeProviderInitiator [restartedMain] HHH000021: Bytecode provider name : bytebuddy
+2023-12-04 13:17:21,524 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-04 13:17:21,526 INFO o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.34
+2023-12-04 13:17:21,536 INFO o.h.b.i.BytecodeProviderInitiator [restartedMain] HHH000021: Bytecode provider name : bytebuddy
+2023-12-04 13:17:21,572 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-04 13:17:21,602 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-04 13:17:21,716 WARN o.s.c.s.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userEndpoint' defined in file [C:\Users\Arman\IdeaProjects\todo-rest\target\classes\com\example\todorest\endpoint\UserEndpoint.class]: Unsatisfied dependency expressed through constructor parameter 2: No qualifying bean of type 'com.example.todorest.service.UserService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-12-04 13:17:21,716 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-04 13:17:21,716 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-2 - Shutdown initiated...
+2023-12-04 13:17:21,741 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-2 - Shutdown completed.
+2023-12-04 13:17:21,742 INFO o.a.j.l.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+2023-12-04 13:17:21,746 INFO o.s.b.a.l.ConditionEvaluationReportLogger [restartedMain] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-12-04 13:17:21,760 ERROR o.s.b.d.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 2 of constructor in com.example.todorest.endpoint.UserEndpoint required a bean of type 'com.example.todorest.service.UserService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.example.todorest.service.UserService' in your configuration.
+
+2023-12-04 13:17:23,236 INFO o.s.b.StartupInfoLogger [restartedMain] Starting TodoRestApplication using Java 17.0.9 with PID 10076 (C:\Users\Arman\IdeaProjects\todo-rest\target\classes started by Arman in C:\Users\Arman\IdeaProjects\todo-rest)
+2023-12-04 13:17:23,236 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-12-04 13:17:23,362 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-04 13:17:23,375 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 13 ms. Found 3 JPA repository interfaces.
+2023-12-04 13:17:23,442 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-12-04 13:17:23,442 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-12-04 13:17:23,442 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-12-04 13:17:23,442 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-12-04 13:17:23,457 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-12-04 13:17:23,457 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 219 ms
+2023-12-04 13:17:23,474 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-3 - Starting...
+2023-12-04 13:17:23,487 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7fd7bbbd
+2023-12-04 13:17:23,487 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-3 - Start completed.
+2023-12-04 13:17:23,502 INFO l.l.c.JavaLogger [restartedMain] Reading from todorest.DATABASECHANGELOG
+2023-12-04 13:17:23,503 INFO l.l.c.JavaLogger [restartedMain] Changelog query completed.
+2023-12-04 13:17:23,519 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-04 13:17:23,525 INFO o.h.b.i.BytecodeProviderInitiator [restartedMain] HHH000021: Bytecode provider name : bytebuddy
+2023-12-04 13:17:23,526 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-04 13:17:23,529 INFO o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.34
+2023-12-04 13:17:23,542 INFO o.h.b.i.BytecodeProviderInitiator [restartedMain] HHH000021: Bytecode provider name : bytebuddy
+2023-12-04 13:17:23,583 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-04 13:17:23,626 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-04 13:17:23,779 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-04 13:17:23,842 INFO o.s.s.w.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3da0fb26, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@567741a4, org.springframework.security.web.context.SecurityContextHolderFilter@31575010, org.springframework.security.web.header.HeaderWriterFilter@108ad37f, org.springframework.security.web.authentication.logout.LogoutFilter@42f52927, com.example.todorest.filter.JWTAuthenticationTokenFilter@387109f0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@38d2ce84, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7e05e3ca, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@51c50f98, org.springframework.security.web.session.SessionManagementFilter@4f1f1088, org.springframework.security.web.access.ExceptionTranslationFilter@672dc42a, org.springframework.security.web.access.intercept.AuthorizationFilter@3d37cce5]
+2023-12-04 13:17:23,888 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-12-04 13:17:23,894 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-12-04 13:17:23,899 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-12-04 13:17:23,901 INFO o.s.b.StartupInfoLogger [restartedMain] Started TodoRestApplication in 0.686 seconds (process running for 61.01)
+2023-12-04 13:17:23,903 INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2023-12-04 13:37:45,871 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-04 13:37:45,872 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-3 - Shutdown initiated...
+2023-12-04 13:37:45,876 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-3 - Shutdown completed.
+2023-12-04 15:00:54,262 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-12-04 15:00:54,303 INFO o.s.b.StartupInfoLogger [restartedMain] Starting TodoRestApplication using Java 17.0.9 with PID 13180 (C:\Users\Arman\IdeaProjects\todo-rest\target\classes started by Arman in C:\Users\Arman\IdeaProjects\todo-rest)
+2023-12-04 15:00:54,304 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-12-04 15:00:54,356 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-12-04 15:00:54,357 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-12-04 15:00:55,336 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-04 15:00:55,421 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 78 ms. Found 3 JPA repository interfaces.
+2023-12-04 15:00:56,292 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-12-04 15:00:56,302 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-12-04 15:00:56,303 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-12-04 15:00:56,304 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-12-04 15:00:56,427 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-12-04 15:00:56,430 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2070 ms
+2023-12-04 15:00:56,549 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-12-04 15:00:56,961 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5d2975ef
+2023-12-04 15:00:56,964 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-12-04 15:00:57,539 INFO l.l.c.JavaLogger [restartedMain] Reading from todorest.DATABASECHANGELOG
+2023-12-04 15:00:57,548 INFO l.l.c.JavaLogger [restartedMain] Changelog query completed.
+2023-12-04 15:00:57,712 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-04 15:00:57,781 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-12-04 15:00:57,786 INFO o.h.c.Environment [restartedMain] HHH000406: Using bytecode reflection optimizer
+2023-12-04 15:00:58,008 INFO o.h.b.i.BytecodeProviderInitiator [restartedMain] HHH000021: Bytecode provider name : bytebuddy
+2023-12-04 15:00:58,166 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-04 15:00:58,217 INFO o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.34
+2023-12-04 15:00:58,418 INFO o.h.b.i.BytecodeProviderInitiator [restartedMain] HHH000021: Bytecode provider name : bytebuddy
+2023-12-04 15:00:59,226 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-04 15:00:59,350 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-04 15:01:00,048 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-04 15:01:00,366 INFO o.s.s.w.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@19d2f9ca, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7f393c2d, org.springframework.security.web.context.SecurityContextHolderFilter@51a2a100, org.springframework.security.web.header.HeaderWriterFilter@7322b5d3, org.springframework.security.web.authentication.logout.LogoutFilter@4b461467, com.example.todorest.filter.JWTAuthenticationTokenFilter@7af63f36, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@177bbbf8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2931bcca, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@64853281, org.springframework.security.web.session.SessionManagementFilter@687951f, org.springframework.security.web.access.ExceptionTranslationFilter@32931ff1, org.springframework.security.web.access.intercept.AuthorizationFilter@4955eb06]
+2023-12-04 15:01:00,648 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-12-04 15:01:00,669 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-12-04 15:01:00,690 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-12-04 15:01:00,701 INFO o.s.b.StartupInfoLogger [restartedMain] Started TodoRestApplication in 6.771 seconds (process running for 8.992)
+2023-12-04 15:01:29,500 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-04 15:01:29,500 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-12-04 15:01:29,500 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2023-12-04 15:01:38,690 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [com.example.todorest.exception.ServiceImplConflictException: The user is registered with this email]
+2023-12-04 15:03:14,899 INFO c.e.t.s.i.UserServiceImpl [http-nio-8080-exec-6] User has successfully registered
+2023-12-04 15:03:14,923 INFO c.e.t.s.i.UserServiceImpl [http-nio-8080-exec-6] User's verification message has been send to the user with the  50 id
+2023-12-04 15:03:26,008 INFO c.e.t.s.i.UserServiceImpl [http-nio-8080-exec-8] User  with the  50 id has verified his account
+2023-12-04 15:11:38,168 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m40s964ms90µs300ns).
+2023-12-04 15:15:44,781 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-04 15:15:44,789 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-12-04 15:15:44,810 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.

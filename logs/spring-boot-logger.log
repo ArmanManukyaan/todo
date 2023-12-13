@@ -1,0 +1,903 @@
+2023-12-13 10:20:22,294 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.example.todorest.endpoint.UserEndpointTest]: UserEndpointTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-12-13 10:20:22,671 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.example.todorest.TodoRestApplication for test class com.example.todorest.endpoint.UserEndpointTest
+2023-12-13 10:20:25,560 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-12-13 10:20:25,631 INFO o.s.b.StartupInfoLogger [main] Starting UserEndpointTest using Java 19.0.2 with PID 11684 (started by Arman in C:\Users\Arman\IdeaProjects\todo-rest)
+2023-12-13 10:20:25,634 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-12-13 10:20:27,532 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-13 10:20:27,665 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 89 ms. Found 3 JPA repository interfaces.
+2023-12-13 10:20:28,464 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-12-13 10:20:29,051 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@48aa0813
+2023-12-13 10:20:29,054 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-12-13 10:20:29,821 INFO l.l.c.JavaLogger [main] Reading from todorest.DATABASECHANGELOG
+2023-12-13 10:20:29,830 INFO l.l.c.JavaLogger [main] Changelog query completed.
+2023-12-13 10:20:30,016 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-13 10:20:30,103 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-12-13 10:20:30,106 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-12-13 10:20:30,265 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 10:20:30,281 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-13 10:20:30,351 INFO o.h.e.j.d.i.DialectFactoryImpl [main] HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.34
+2023-12-13 10:20:30,623 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 10:20:31,423 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-13 10:20:31,571 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-13 10:20:33,031 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-13 10:20:33,804 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1979d616, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6272936b, org.springframework.security.web.context.SecurityContextHolderFilter@570cef1e, org.springframework.security.web.header.HeaderWriterFilter@e9fa0ea, org.springframework.security.web.authentication.logout.LogoutFilter@16124894, com.example.todorest.filter.JWTAuthenticationTokenFilter@2806fe58, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1264dbc9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@34d08905, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7da6e22a, org.springframework.security.web.session.SessionManagementFilter@7da4c956, org.springframework.security.web.access.ExceptionTranslationFilter@5ca8157c, org.springframework.security.web.access.intercept.AuthorizationFilter@48bafe39]
+2023-12-13 10:20:34,305 INFO o.s.m.w.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2023-12-13 10:20:34,306 INFO o.s.w.s.FrameworkServlet [main] Initializing Servlet ''
+2023-12-13 10:20:34,308 INFO o.s.w.s.FrameworkServlet [main] Completed initialization in 2 ms
+2023-12-13 10:20:34,345 INFO o.s.b.StartupInfoLogger [main] Started UserEndpointTest in 9.47 seconds (process running for 13.584)
+2023-12-13 10:20:34,704 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-13 10:20:34,708 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-12-13 10:20:34,723 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-12-13 10:21:06,855 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.example.todorest.endpoint.UserEndpointTest]: UserEndpointTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-12-13 10:21:07,169 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.example.todorest.TodoRestApplication for test class com.example.todorest.endpoint.UserEndpointTest
+2023-12-13 10:21:17,340 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.example.todorest.endpoint.UserEndpointTest]: UserEndpointTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-12-13 10:21:17,521 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.example.todorest.TodoRestApplication for test class com.example.todorest.endpoint.UserEndpointTest
+2023-12-13 10:21:19,493 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-12-13 10:21:19,565 INFO o.s.b.StartupInfoLogger [main] Starting UserEndpointTest using Java 19.0.2 with PID 14628 (started by Arman in C:\Users\Arman\IdeaProjects\todo-rest)
+2023-12-13 10:21:19,590 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-12-13 10:21:20,783 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-13 10:21:20,913 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 100 ms. Found 3 JPA repository interfaces.
+2023-12-13 10:21:21,873 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-12-13 10:21:22,321 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6cbbfe29
+2023-12-13 10:21:22,325 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-12-13 10:21:23,036 INFO l.l.c.JavaLogger [main] Reading from todorest.DATABASECHANGELOG
+2023-12-13 10:21:23,045 INFO l.l.c.JavaLogger [main] Changelog query completed.
+2023-12-13 10:21:23,260 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-13 10:21:23,324 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-12-13 10:21:23,326 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-12-13 10:21:23,495 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 10:21:23,511 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-13 10:21:23,561 INFO o.h.e.j.d.i.DialectFactoryImpl [main] HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.34
+2023-12-13 10:21:23,801 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 10:21:24,439 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-13 10:21:24,611 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-13 10:21:25,907 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-13 10:21:26,572 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6272936b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7da6e22a, org.springframework.security.web.context.SecurityContextHolderFilter@c3972d0, org.springframework.security.web.header.HeaderWriterFilter@1c619a77, org.springframework.security.web.authentication.logout.LogoutFilter@4dd56393, com.example.todorest.filter.JWTAuthenticationTokenFilter@39153b05, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@77f2807f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@57421698, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7db57566, org.springframework.security.web.session.SessionManagementFilter@7c5c53e5, org.springframework.security.web.access.ExceptionTranslationFilter@33cee31a, org.springframework.security.web.access.intercept.AuthorizationFilter@608c03e3]
+2023-12-13 10:21:27,002 INFO o.s.m.w.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2023-12-13 10:21:27,002 INFO o.s.w.s.FrameworkServlet [main] Initializing Servlet ''
+2023-12-13 10:21:27,004 INFO o.s.w.s.FrameworkServlet [main] Completed initialization in 1 ms
+2023-12-13 10:21:27,043 INFO o.s.b.StartupInfoLogger [main] Started UserEndpointTest in 8.109 seconds (process running for 10.837)
+2023-12-13 10:21:27,662 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-13 10:21:27,675 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-12-13 10:21:27,699 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-12-13 10:34:20,527 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.example.todorest.endpoint.UserEndpointTest]: UserEndpointTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-12-13 10:34:20,746 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.example.todorest.TodoRestApplication for test class com.example.todorest.endpoint.UserEndpointTest
+2023-12-13 10:34:22,761 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-12-13 10:34:22,819 INFO o.s.b.StartupInfoLogger [main] Starting UserEndpointTest using Java 19.0.2 with PID 2072 (started by Arman in C:\Users\Arman\IdeaProjects\todo-rest)
+2023-12-13 10:34:22,821 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-12-13 10:34:24,135 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-13 10:34:24,248 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 84 ms. Found 3 JPA repository interfaces.
+2023-12-13 10:34:25,177 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-12-13 10:34:25,604 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2419fe6f
+2023-12-13 10:34:25,662 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-12-13 10:34:26,341 INFO l.l.c.JavaLogger [main] Reading from todorest.DATABASECHANGELOG
+2023-12-13 10:34:26,349 INFO l.l.c.JavaLogger [main] Changelog query completed.
+2023-12-13 10:34:26,517 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-13 10:34:26,584 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-12-13 10:34:26,587 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-12-13 10:34:26,752 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 10:34:26,779 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-13 10:34:26,832 INFO o.h.e.j.d.i.DialectFactoryImpl [main] HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.34
+2023-12-13 10:34:27,092 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 10:34:27,853 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-13 10:34:28,041 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-13 10:34:29,336 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-13 10:34:30,153 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@f55ecec, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@61c1be2f, org.springframework.security.web.context.SecurityContextHolderFilter@33cee31a, org.springframework.security.web.header.HeaderWriterFilter@192f807, org.springframework.security.web.authentication.logout.LogoutFilter@230383a7, com.example.todorest.filter.JWTAuthenticationTokenFilter@4a571516, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1c619a77, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@27a57c66, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@423325e0, org.springframework.security.web.session.SessionManagementFilter@30a1b9b0, org.springframework.security.web.access.ExceptionTranslationFilter@4487dce, org.springframework.security.web.access.intercept.AuthorizationFilter@5a4ceb1]
+2023-12-13 10:34:30,760 INFO o.s.m.w.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2023-12-13 10:34:30,761 INFO o.s.w.s.FrameworkServlet [main] Initializing Servlet ''
+2023-12-13 10:34:30,762 INFO o.s.w.s.FrameworkServlet [main] Completed initialization in 1 ms
+2023-12-13 10:34:30,805 INFO o.s.b.StartupInfoLogger [main] Started UserEndpointTest in 8.477 seconds (process running for 11.514)
+2023-12-13 10:34:31,286 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-13 10:34:31,289 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-12-13 10:34:31,305 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-12-13 10:43:35,754 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.example.todorest.endpoint.UserEndpointTest]: UserEndpointTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-12-13 10:43:35,885 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.example.todorest.TodoRestApplication for test class com.example.todorest.endpoint.UserEndpointTest
+2023-12-13 10:43:37,390 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-12-13 10:43:37,464 INFO o.s.b.StartupInfoLogger [main] Starting UserEndpointTest using Java 19.0.2 with PID 14884 (started by Arman in C:\Users\Arman\IdeaProjects\todo-rest)
+2023-12-13 10:43:37,466 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-12-13 10:43:38,530 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-13 10:43:38,624 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 83 ms. Found 3 JPA repository interfaces.
+2023-12-13 10:43:39,255 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-12-13 10:43:39,576 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2419fe6f
+2023-12-13 10:43:39,578 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-12-13 10:43:40,185 INFO l.l.c.JavaLogger [main] Reading from todorest.DATABASECHANGELOG
+2023-12-13 10:43:40,191 INFO l.l.c.JavaLogger [main] Changelog query completed.
+2023-12-13 10:43:40,344 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-13 10:43:40,398 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-12-13 10:43:40,400 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-12-13 10:43:40,533 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 10:43:40,546 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-13 10:43:40,584 INFO o.h.e.j.d.i.DialectFactoryImpl [main] HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.34
+2023-12-13 10:43:40,776 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 10:43:41,280 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-13 10:43:41,359 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-13 10:43:42,315 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-13 10:43:43,167 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4dd56393, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7793eaca, org.springframework.security.web.context.SecurityContextHolderFilter@27a57c66, org.springframework.security.web.header.HeaderWriterFilter@6a4ba6f4, org.springframework.security.web.authentication.logout.LogoutFilter@494e7290, com.example.todorest.filter.JWTAuthenticationTokenFilter@149bdb4e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@744d0cfb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@20e7ea20, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@785ba20d, org.springframework.security.web.session.SessionManagementFilter@7e7f72, org.springframework.security.web.access.ExceptionTranslationFilter@2008dfa7, org.springframework.security.web.access.intercept.AuthorizationFilter@7a4ea134]
+2023-12-13 10:43:43,936 INFO o.s.m.w.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2023-12-13 10:43:43,936 INFO o.s.w.s.FrameworkServlet [main] Initializing Servlet ''
+2023-12-13 10:43:43,937 INFO o.s.w.s.FrameworkServlet [main] Completed initialization in 1 ms
+2023-12-13 10:43:43,965 INFO o.s.b.StartupInfoLogger [main] Started UserEndpointTest in 7.006 seconds (process running for 8.876)
+2023-12-13 10:43:44,155 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-13 10:43:44,160 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-12-13 10:43:44,169 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-12-13 10:44:58,375 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.example.todorest.endpoint.UserEndpointTest]: UserEndpointTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-12-13 10:44:58,530 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.example.todorest.TodoRestApplication for test class com.example.todorest.endpoint.UserEndpointTest
+2023-12-13 10:45:00,148 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-12-13 10:45:00,210 INFO o.s.b.StartupInfoLogger [main] Starting UserEndpointTest using Java 19.0.2 with PID 18328 (started by Arman in C:\Users\Arman\IdeaProjects\todo-rest)
+2023-12-13 10:45:00,212 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-12-13 10:45:01,356 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-13 10:45:01,449 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 81 ms. Found 3 JPA repository interfaces.
+2023-12-13 10:45:02,150 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-12-13 10:45:02,494 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@398694a6
+2023-12-13 10:45:02,496 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-12-13 10:45:03,084 INFO l.l.c.JavaLogger [main] Reading from todorest.DATABASECHANGELOG
+2023-12-13 10:45:03,090 INFO l.l.c.JavaLogger [main] Changelog query completed.
+2023-12-13 10:45:03,239 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-13 10:45:03,298 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-12-13 10:45:03,300 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-12-13 10:45:03,435 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 10:45:03,445 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-13 10:45:03,484 INFO o.h.e.j.d.i.DialectFactoryImpl [main] HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.34
+2023-12-13 10:45:03,682 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 10:45:04,195 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-13 10:45:04,277 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-13 10:45:05,289 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-13 10:45:06,001 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@720b52a7, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5765cd21, org.springframework.security.web.context.SecurityContextHolderFilter@3c511385, org.springframework.security.web.header.HeaderWriterFilter@5ed4c87, org.springframework.security.web.authentication.logout.LogoutFilter@f55ecec, com.example.todorest.filter.JWTAuthenticationTokenFilter@1c12f0f4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7da4c956, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@c3972d0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@63c31664, org.springframework.security.web.session.SessionManagementFilter@744d0cfb, org.springframework.security.web.access.ExceptionTranslationFilter@792bf78a, org.springframework.security.web.access.intercept.AuthorizationFilter@7c09037a]
+2023-12-13 10:45:06,684 INFO o.s.m.w.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2023-12-13 10:45:06,685 INFO o.s.w.s.FrameworkServlet [main] Initializing Servlet ''
+2023-12-13 10:45:06,686 INFO o.s.w.s.FrameworkServlet [main] Completed initialization in 1 ms
+2023-12-13 10:45:06,708 INFO o.s.b.StartupInfoLogger [main] Started UserEndpointTest in 7.116 seconds (process running for 9.093)
+2023-12-13 10:45:06,874 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-13 10:45:06,877 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-12-13 10:45:07,019 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-12-13 10:45:29,357 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.example.todorest.endpoint.UserEndpointTest]: UserEndpointTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-12-13 10:45:29,526 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.example.todorest.TodoRestApplication for test class com.example.todorest.endpoint.UserEndpointTest
+2023-12-13 10:45:31,308 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-12-13 10:45:31,369 INFO o.s.b.StartupInfoLogger [main] Starting UserEndpointTest using Java 19.0.2 with PID 17724 (started by Arman in C:\Users\Arman\IdeaProjects\todo-rest)
+2023-12-13 10:45:31,372 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-12-13 10:45:32,406 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-13 10:45:32,504 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 79 ms. Found 3 JPA repository interfaces.
+2023-12-13 10:45:33,155 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-12-13 10:45:33,483 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@398694a6
+2023-12-13 10:45:33,485 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-12-13 10:45:34,009 INFO l.l.c.JavaLogger [main] Reading from todorest.DATABASECHANGELOG
+2023-12-13 10:45:34,014 INFO l.l.c.JavaLogger [main] Changelog query completed.
+2023-12-13 10:45:34,135 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-13 10:45:34,186 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-12-13 10:45:34,189 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-12-13 10:45:34,323 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 10:45:34,332 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-13 10:45:34,375 INFO o.h.e.j.d.i.DialectFactoryImpl [main] HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.34
+2023-12-13 10:45:34,547 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 10:45:35,055 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-13 10:45:35,133 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-13 10:45:36,051 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-13 10:45:36,743 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@720b52a7, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5765cd21, org.springframework.security.web.context.SecurityContextHolderFilter@3c511385, org.springframework.security.web.header.HeaderWriterFilter@5ed4c87, org.springframework.security.web.authentication.logout.LogoutFilter@f55ecec, com.example.todorest.filter.JWTAuthenticationTokenFilter@1c12f0f4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7da4c956, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@c3972d0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@63c31664, org.springframework.security.web.session.SessionManagementFilter@744d0cfb, org.springframework.security.web.access.ExceptionTranslationFilter@792bf78a, org.springframework.security.web.access.intercept.AuthorizationFilter@7c09037a]
+2023-12-13 10:45:37,588 INFO o.s.m.w.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2023-12-13 10:45:37,588 INFO o.s.w.s.FrameworkServlet [main] Initializing Servlet ''
+2023-12-13 10:45:37,589 INFO o.s.w.s.FrameworkServlet [main] Completed initialization in 1 ms
+2023-12-13 10:45:37,631 INFO o.s.b.StartupInfoLogger [main] Started UserEndpointTest in 6.939 seconds (process running for 9.121)
+2023-12-13 10:45:37,811 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-13 10:45:37,814 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-12-13 10:45:37,823 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-12-13 10:46:28,011 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.example.todorest.endpoint.UserEndpointTest]: UserEndpointTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-12-13 10:46:28,286 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.example.todorest.TodoRestApplication for test class com.example.todorest.endpoint.UserEndpointTest
+2023-12-13 10:46:30,415 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-12-13 10:46:30,481 INFO o.s.b.StartupInfoLogger [main] Starting UserEndpointTest using Java 19.0.2 with PID 18324 (started by Arman in C:\Users\Arman\IdeaProjects\todo-rest)
+2023-12-13 10:46:30,483 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-12-13 10:46:31,361 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-13 10:46:31,489 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 96 ms. Found 3 JPA repository interfaces.
+2023-12-13 10:46:32,421 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-12-13 10:46:33,113 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@300aa927
+2023-12-13 10:46:33,118 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-12-13 10:46:33,836 INFO l.l.c.JavaLogger [main] Reading from todorest.DATABASECHANGELOG
+2023-12-13 10:46:33,847 INFO l.l.c.JavaLogger [main] Changelog query completed.
+2023-12-13 10:46:34,029 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-13 10:46:34,156 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-12-13 10:46:34,163 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-12-13 10:46:34,449 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 10:46:34,475 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-13 10:46:34,552 INFO o.h.e.j.d.i.DialectFactoryImpl [main] HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.34
+2023-12-13 10:46:34,893 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 10:46:35,804 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-13 10:46:35,948 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-13 10:46:37,395 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-13 10:46:38,527 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2a7ed9bd, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7ba38cce, org.springframework.security.web.context.SecurityContextHolderFilter@1aa21319, org.springframework.security.web.header.HeaderWriterFilter@52f8effb, org.springframework.security.web.authentication.logout.LogoutFilter@1fc5791c, com.example.todorest.filter.JWTAuthenticationTokenFilter@73e0c775, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1a9ba6c2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@27f09e08, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@28dae87e, org.springframework.security.web.session.SessionManagementFilter@712adc04, org.springframework.security.web.access.ExceptionTranslationFilter@470b7fcf, org.springframework.security.web.access.intercept.AuthorizationFilter@60666985]
+2023-12-13 10:46:39,523 INFO o.s.m.w.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2023-12-13 10:46:39,523 INFO o.s.w.s.FrameworkServlet [main] Initializing Servlet ''
+2023-12-13 10:46:39,525 INFO o.s.w.s.FrameworkServlet [main] Completed initialization in 1 ms
+2023-12-13 10:46:39,589 INFO o.s.b.StartupInfoLogger [main] Started UserEndpointTest in 9.537 seconds (process running for 13.735)
+2023-12-13 10:46:50,655 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-13 10:46:50,658 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-12-13 10:46:50,669 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-12-13 10:49:00,225 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.example.todorest.endpoint.UserEndpointTest]: UserEndpointTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-12-13 10:49:00,483 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.example.todorest.TodoRestApplication for test class com.example.todorest.endpoint.UserEndpointTest
+2023-12-13 10:49:02,726 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-12-13 10:49:02,807 INFO o.s.b.StartupInfoLogger [main] Starting UserEndpointTest using Java 19.0.2 with PID 348 (started by Arman in C:\Users\Arman\IdeaProjects\todo-rest)
+2023-12-13 10:49:02,809 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-12-13 10:49:03,765 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-13 10:49:03,928 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 124 ms. Found 3 JPA repository interfaces.
+2023-12-13 10:49:04,919 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-12-13 10:49:05,695 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@300aa927
+2023-12-13 10:49:05,701 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-12-13 10:49:06,430 INFO l.l.c.JavaLogger [main] Reading from todorest.DATABASECHANGELOG
+2023-12-13 10:49:06,442 INFO l.l.c.JavaLogger [main] Changelog query completed.
+2023-12-13 10:49:06,652 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-13 10:49:06,774 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-12-13 10:49:06,790 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-12-13 10:49:07,089 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 10:49:07,110 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-13 10:49:07,208 INFO o.h.e.j.d.i.DialectFactoryImpl [main] HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.34
+2023-12-13 10:49:07,562 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 10:49:08,510 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-13 10:49:08,650 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-13 10:49:10,229 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-13 10:49:11,310 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@57fd3b57, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6903bec9, org.springframework.security.web.context.SecurityContextHolderFilter@7f9ebcfe, org.springframework.security.web.header.HeaderWriterFilter@7b2adbde, org.springframework.security.web.authentication.logout.LogoutFilter@13e76a91, com.example.todorest.filter.JWTAuthenticationTokenFilter@2b08f55a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@712adc04, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3dcf26b5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2f6fcc70, org.springframework.security.web.session.SessionManagementFilter@389f4282, org.springframework.security.web.access.ExceptionTranslationFilter@4c2b8df7, org.springframework.security.web.access.intercept.AuthorizationFilter@4300b54c]
+2023-12-13 10:49:12,104 INFO o.s.m.w.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2023-12-13 10:49:12,104 INFO o.s.w.s.FrameworkServlet [main] Initializing Servlet ''
+2023-12-13 10:49:12,105 INFO o.s.w.s.FrameworkServlet [main] Completed initialization in 1 ms
+2023-12-13 10:49:12,164 INFO o.s.b.StartupInfoLogger [main] Started UserEndpointTest in 9.894 seconds (process running for 13.496)
+2023-12-13 10:49:41,198 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-13 10:49:41,203 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-12-13 10:49:41,212 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-12-13 10:50:51,260 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.example.todorest.endpoint.UserEndpointTest]: UserEndpointTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-12-13 10:50:51,429 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.example.todorest.TodoRestApplication for test class com.example.todorest.endpoint.UserEndpointTest
+2023-12-13 10:50:53,162 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-12-13 10:50:53,235 INFO o.s.b.StartupInfoLogger [main] Starting UserEndpointTest using Java 19.0.2 with PID 18040 (started by Arman in C:\Users\Arman\IdeaProjects\todo-rest)
+2023-12-13 10:50:53,237 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-12-13 10:50:54,271 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-13 10:50:54,388 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 101 ms. Found 3 JPA repository interfaces.
+2023-12-13 10:50:55,058 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-12-13 10:50:55,417 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@779b4f9c
+2023-12-13 10:50:55,418 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-12-13 10:50:56,011 INFO l.l.c.JavaLogger [main] Reading from todorest.DATABASECHANGELOG
+2023-12-13 10:50:56,018 INFO l.l.c.JavaLogger [main] Changelog query completed.
+2023-12-13 10:50:56,160 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-13 10:50:56,234 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-12-13 10:50:56,240 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-12-13 10:50:56,412 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 10:50:56,429 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-13 10:50:56,475 INFO o.h.e.j.d.i.DialectFactoryImpl [main] HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.34
+2023-12-13 10:50:56,666 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 10:50:57,185 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-13 10:50:57,292 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-13 10:50:58,306 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-13 10:50:59,050 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1979d616, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6272936b, org.springframework.security.web.context.SecurityContextHolderFilter@570cef1e, org.springframework.security.web.header.HeaderWriterFilter@e9fa0ea, org.springframework.security.web.authentication.logout.LogoutFilter@16124894, com.example.todorest.filter.JWTAuthenticationTokenFilter@26fee641, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1264dbc9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@34d08905, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7da6e22a, org.springframework.security.web.session.SessionManagementFilter@7da4c956, org.springframework.security.web.access.ExceptionTranslationFilter@5ca8157c, org.springframework.security.web.access.intercept.AuthorizationFilter@48bafe39]
+2023-12-13 10:50:59,828 INFO o.s.m.w.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2023-12-13 10:50:59,829 INFO o.s.w.s.FrameworkServlet [main] Initializing Servlet ''
+2023-12-13 10:50:59,830 INFO o.s.w.s.FrameworkServlet [main] Completed initialization in 1 ms
+2023-12-13 10:50:59,871 INFO o.s.b.StartupInfoLogger [main] Started UserEndpointTest in 7.308 seconds (process running for 9.396)
+2023-12-13 10:51:00,397 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-13 10:51:00,399 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-12-13 10:51:00,406 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-12-13 10:51:56,786 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.example.todorest.endpoint.UserEndpointTest]: UserEndpointTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-12-13 10:51:56,948 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.example.todorest.TodoRestApplication for test class com.example.todorest.endpoint.UserEndpointTest
+2023-12-13 10:51:58,405 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-12-13 10:51:58,465 INFO o.s.b.StartupInfoLogger [main] Starting UserEndpointTest using Java 19.0.2 with PID 13128 (started by Arman in C:\Users\Arman\IdeaProjects\todo-rest)
+2023-12-13 10:51:58,466 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-12-13 10:51:59,382 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-13 10:51:59,487 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 76 ms. Found 3 JPA repository interfaces.
+2023-12-13 10:52:00,629 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-12-13 10:52:01,332 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5cd701e4
+2023-12-13 10:52:01,337 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-12-13 10:52:02,086 INFO l.l.c.JavaLogger [main] Reading from todorest.DATABASECHANGELOG
+2023-12-13 10:52:02,095 INFO l.l.c.JavaLogger [main] Changelog query completed.
+2023-12-13 10:52:02,284 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-13 10:52:02,376 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-12-13 10:52:02,381 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-12-13 10:52:02,657 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 10:52:02,676 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-13 10:52:02,751 INFO o.h.e.j.d.i.DialectFactoryImpl [main] HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.34
+2023-12-13 10:52:03,107 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 10:52:04,021 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-13 10:52:04,153 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-13 10:52:05,452 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-13 10:52:06,456 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6cf71064, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4b9b57d9, org.springframework.security.web.context.SecurityContextHolderFilter@2a6dfbb2, org.springframework.security.web.header.HeaderWriterFilter@7cf618f3, org.springframework.security.web.authentication.logout.LogoutFilter@2f6fcc70, com.example.todorest.filter.JWTAuthenticationTokenFilter@1a983294, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3dab9366, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4bcfa08b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2762bd70, org.springframework.security.web.session.SessionManagementFilter@609a996f, org.springframework.security.web.access.ExceptionTranslationFilter@7c58c10f, org.springframework.security.web.access.intercept.AuthorizationFilter@4c24063c]
+2023-12-13 10:52:07,335 INFO o.s.m.w.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2023-12-13 10:52:07,336 INFO o.s.w.s.FrameworkServlet [main] Initializing Servlet ''
+2023-12-13 10:52:07,337 INFO o.s.w.s.FrameworkServlet [main] Completed initialization in 1 ms
+2023-12-13 10:52:07,393 INFO o.s.b.StartupInfoLogger [main] Started UserEndpointTest in 9.321 seconds (process running for 11.532)
+2023-12-13 10:52:36,646 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-13 10:52:36,648 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-12-13 10:52:36,655 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-12-13 10:52:40,832 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.example.todorest.endpoint.UserEndpointTest]: UserEndpointTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-12-13 10:52:40,983 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.example.todorest.TodoRestApplication for test class com.example.todorest.endpoint.UserEndpointTest
+2023-12-13 10:52:42,406 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-12-13 10:52:42,457 INFO o.s.b.StartupInfoLogger [main] Starting UserEndpointTest using Java 19.0.2 with PID 3484 (started by Arman in C:\Users\Arman\IdeaProjects\todo-rest)
+2023-12-13 10:52:42,458 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-12-13 10:52:43,300 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-13 10:52:43,398 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 62 ms. Found 3 JPA repository interfaces.
+2023-12-13 10:52:44,580 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-12-13 10:52:45,266 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5cd701e4
+2023-12-13 10:52:45,272 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-12-13 10:52:45,974 INFO l.l.c.JavaLogger [main] Reading from todorest.DATABASECHANGELOG
+2023-12-13 10:52:45,984 INFO l.l.c.JavaLogger [main] Changelog query completed.
+2023-12-13 10:52:46,154 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-13 10:52:46,260 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-12-13 10:52:46,264 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-12-13 10:52:46,506 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 10:52:46,526 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-13 10:52:46,607 INFO o.h.e.j.d.i.DialectFactoryImpl [main] HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.34
+2023-12-13 10:52:46,946 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 10:52:47,845 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-13 10:52:47,969 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-13 10:52:49,403 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-13 10:52:50,368 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5fb4870b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4e8036bb, org.springframework.security.web.context.SecurityContextHolderFilter@76b9056d, org.springframework.security.web.header.HeaderWriterFilter@712adc04, org.springframework.security.web.authentication.logout.LogoutFilter@7ba38cce, com.example.todorest.filter.JWTAuthenticationTokenFilter@1a983294, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4bcfa08b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4d343793, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7c3b8b26, org.springframework.security.web.session.SessionManagementFilter@1e085e71, org.springframework.security.web.access.ExceptionTranslationFilter@7f9ebcfe, org.springframework.security.web.access.intercept.AuthorizationFilter@2762bd70]
+2023-12-13 10:52:51,226 INFO o.s.m.w.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2023-12-13 10:52:51,227 INFO o.s.w.s.FrameworkServlet [main] Initializing Servlet ''
+2023-12-13 10:52:51,228 INFO o.s.w.s.FrameworkServlet [main] Completed initialization in 1 ms
+2023-12-13 10:52:51,273 INFO o.s.b.StartupInfoLogger [main] Started UserEndpointTest in 9.211 seconds (process running for 11.343)
+2023-12-13 10:59:07,817 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m22s439ms372µs800ns).
+2023-12-13 10:59:08,041 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-13 10:59:08,045 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-12-13 10:59:08,055 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-12-13 11:00:48,137 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.example.todorest.endpoint.UserEndpointTest]: UserEndpointTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-12-13 11:00:48,314 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.example.todorest.TodoRestApplication for test class com.example.todorest.endpoint.UserEndpointTest
+2023-12-13 11:00:50,073 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-12-13 11:00:50,145 INFO o.s.b.StartupInfoLogger [main] Starting UserEndpointTest using Java 19.0.2 with PID 6604 (started by Arman in C:\Users\Arman\IdeaProjects\todo-rest)
+2023-12-13 11:00:50,150 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-12-13 11:00:51,269 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-13 11:00:51,371 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 86 ms. Found 3 JPA repository interfaces.
+2023-12-13 11:00:52,086 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-12-13 11:00:52,500 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@779b4f9c
+2023-12-13 11:00:52,501 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-12-13 11:00:53,091 INFO l.l.c.JavaLogger [main] Reading from todorest.DATABASECHANGELOG
+2023-12-13 11:00:53,100 INFO l.l.c.JavaLogger [main] Changelog query completed.
+2023-12-13 11:00:53,244 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-13 11:00:53,309 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-12-13 11:00:53,311 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-12-13 11:00:53,456 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 11:00:53,469 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-13 11:00:53,512 INFO o.h.e.j.d.i.DialectFactoryImpl [main] HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.34
+2023-12-13 11:00:53,717 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 11:00:54,248 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-13 11:00:54,338 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-13 11:00:55,352 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-13 11:00:56,347 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1979d616, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6272936b, org.springframework.security.web.context.SecurityContextHolderFilter@570cef1e, org.springframework.security.web.header.HeaderWriterFilter@e9fa0ea, org.springframework.security.web.authentication.logout.LogoutFilter@16124894, com.example.todorest.filter.JWTAuthenticationTokenFilter@26fee641, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1264dbc9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@34d08905, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7da6e22a, org.springframework.security.web.session.SessionManagementFilter@7da4c956, org.springframework.security.web.access.ExceptionTranslationFilter@5ca8157c, org.springframework.security.web.access.intercept.AuthorizationFilter@48bafe39]
+2023-12-13 11:00:57,317 INFO o.s.m.w.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2023-12-13 11:00:57,318 INFO o.s.w.s.FrameworkServlet [main] Initializing Servlet ''
+2023-12-13 11:00:57,320 INFO o.s.w.s.FrameworkServlet [main] Completed initialization in 1 ms
+2023-12-13 11:00:57,379 INFO o.s.b.StartupInfoLogger [main] Started UserEndpointTest in 7.886 seconds (process running for 9.979)
+2023-12-13 11:00:58,314 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-13 11:00:58,328 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-12-13 11:00:58,354 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-12-13 11:09:17,818 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.example.todorest.endpoint.UserEndpointTest]: UserEndpointTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-12-13 11:09:17,938 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.example.todorest.TodoRestApplication for test class com.example.todorest.endpoint.UserEndpointTest
+2023-12-13 11:09:19,296 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-12-13 11:09:19,338 INFO o.s.b.StartupInfoLogger [main] Starting UserEndpointTest using Java 19.0.2 with PID 12728 (started by Arman in C:\Users\Arman\IdeaProjects\todo-rest)
+2023-12-13 11:09:19,340 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-12-13 11:09:20,198 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-13 11:09:20,296 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 69 ms. Found 3 JPA repository interfaces.
+2023-12-13 11:09:21,398 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-12-13 11:09:22,062 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5cd701e4
+2023-12-13 11:09:22,068 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-12-13 11:09:22,820 INFO l.l.c.JavaLogger [main] Reading from todorest.DATABASECHANGELOG
+2023-12-13 11:09:22,841 INFO l.l.c.JavaLogger [main] Changelog query completed.
+2023-12-13 11:09:23,080 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-13 11:09:23,207 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-12-13 11:09:23,212 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-12-13 11:09:23,557 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 11:09:23,583 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-13 11:09:23,708 INFO o.h.e.j.d.i.DialectFactoryImpl [main] HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.34
+2023-12-13 11:09:24,163 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 11:09:25,499 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-13 11:09:25,784 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-13 11:09:28,530 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-13 11:09:29,696 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2762bd70, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@b94c22d, org.springframework.security.web.context.SecurityContextHolderFilter@3dab9366, org.springframework.security.web.header.HeaderWriterFilter@7f9ebcfe, org.springframework.security.web.authentication.logout.LogoutFilter@5effc15d, com.example.todorest.filter.JWTAuthenticationTokenFilter@1a983294, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@76b9056d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@20bc6f4d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5fb4870b, org.springframework.security.web.session.SessionManagementFilter@2984edab, org.springframework.security.web.access.ExceptionTranslationFilter@7cf618f3, org.springframework.security.web.access.intercept.AuthorizationFilter@6cf71064]
+2023-12-13 11:09:30,582 INFO o.s.m.w.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2023-12-13 11:09:30,582 INFO o.s.w.s.FrameworkServlet [main] Initializing Servlet ''
+2023-12-13 11:09:30,584 INFO o.s.w.s.FrameworkServlet [main] Completed initialization in 1 ms
+2023-12-13 11:09:30,687 INFO o.s.b.StartupInfoLogger [main] Started UserEndpointTest in 11.715 seconds (process running for 13.733)
+2023-12-13 11:14:23,727 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m31s551ms83µs900ns).
+2023-12-13 11:14:25,286 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-13 11:14:25,291 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-12-13 11:14:25,300 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-12-13 11:14:30,772 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.example.todorest.endpoint.UserEndpointTest]: UserEndpointTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-12-13 11:14:30,916 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.example.todorest.TodoRestApplication for test class com.example.todorest.endpoint.UserEndpointTest
+2023-12-13 11:14:32,322 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-12-13 11:14:32,377 INFO o.s.b.StartupInfoLogger [main] Starting UserEndpointTest using Java 19.0.2 with PID 10932 (started by Arman in C:\Users\Arman\IdeaProjects\todo-rest)
+2023-12-13 11:14:32,380 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-12-13 11:14:33,237 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-13 11:14:33,332 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 67 ms. Found 3 JPA repository interfaces.
+2023-12-13 11:14:34,327 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-12-13 11:14:35,008 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5cd701e4
+2023-12-13 11:14:35,014 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-12-13 11:14:35,686 INFO l.l.c.JavaLogger [main] Reading from todorest.DATABASECHANGELOG
+2023-12-13 11:14:35,696 INFO l.l.c.JavaLogger [main] Changelog query completed.
+2023-12-13 11:14:35,866 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-13 11:14:35,956 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-12-13 11:14:35,960 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-12-13 11:14:36,188 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 11:14:36,207 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-13 11:14:36,279 INFO o.h.e.j.d.i.DialectFactoryImpl [main] HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.34
+2023-12-13 11:14:36,629 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 11:14:37,495 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-13 11:14:37,641 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-13 11:14:39,003 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-13 11:14:39,861 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6cf71064, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4b9b57d9, org.springframework.security.web.context.SecurityContextHolderFilter@2a6dfbb2, org.springframework.security.web.header.HeaderWriterFilter@7cf618f3, org.springframework.security.web.authentication.logout.LogoutFilter@2f6fcc70, com.example.todorest.filter.JWTAuthenticationTokenFilter@1a983294, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3dab9366, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4bcfa08b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2762bd70, org.springframework.security.web.session.SessionManagementFilter@609a996f, org.springframework.security.web.access.ExceptionTranslationFilter@7c58c10f, org.springframework.security.web.access.intercept.AuthorizationFilter@4c24063c]
+2023-12-13 11:14:40,853 INFO o.s.m.w.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2023-12-13 11:14:40,854 INFO o.s.w.s.FrameworkServlet [main] Initializing Servlet ''
+2023-12-13 11:14:40,855 INFO o.s.w.s.FrameworkServlet [main] Completed initialization in 1 ms
+2023-12-13 11:14:40,901 INFO o.s.b.StartupInfoLogger [main] Started UserEndpointTest in 8.879 seconds (process running for 11.077)
+2023-12-13 11:14:53,971 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-13 11:14:53,975 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-12-13 11:14:53,984 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-12-13 11:17:46,899 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.example.todorest.endpoint.UserEndpointTest]: UserEndpointTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-12-13 11:17:47,037 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.example.todorest.TodoRestApplication for test class com.example.todorest.endpoint.UserEndpointTest
+2023-12-13 11:17:48,460 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-12-13 11:17:48,504 INFO o.s.b.StartupInfoLogger [main] Starting UserEndpointTest using Java 19.0.2 with PID 9616 (started by Arman in C:\Users\Arman\IdeaProjects\todo-rest)
+2023-12-13 11:17:48,506 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-12-13 11:17:49,380 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-13 11:17:49,475 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 70 ms. Found 3 JPA repository interfaces.
+2023-12-13 11:17:50,620 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-12-13 11:17:51,324 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2548fc01
+2023-12-13 11:17:51,329 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-12-13 11:17:52,097 INFO l.l.c.JavaLogger [main] Reading from todorest.DATABASECHANGELOG
+2023-12-13 11:17:52,109 INFO l.l.c.JavaLogger [main] Changelog query completed.
+2023-12-13 11:17:52,271 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-13 11:17:52,366 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-12-13 11:17:52,384 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-12-13 11:17:52,646 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 11:17:52,667 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-13 11:17:52,745 INFO o.h.e.j.d.i.DialectFactoryImpl [main] HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.34
+2023-12-13 11:17:53,098 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 11:17:53,995 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-13 11:17:54,116 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-13 11:17:55,348 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-13 11:17:56,264 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@b94c22d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5fb4870b, org.springframework.security.web.context.SecurityContextHolderFilter@33ccc8cd, org.springframework.security.web.header.HeaderWriterFilter@3d577add, org.springframework.security.web.authentication.logout.LogoutFilter@2a7ed9bd, com.example.todorest.filter.JWTAuthenticationTokenFilter@dfe2875, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2a9e261d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7b491b89, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4e8036bb, org.springframework.security.web.session.SessionManagementFilter@2a6dfbb2, org.springframework.security.web.access.ExceptionTranslationFilter@45745de6, org.springframework.security.web.access.intercept.AuthorizationFilter@4b9b57d9]
+2023-12-13 11:17:57,082 INFO o.s.m.w.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2023-12-13 11:17:57,082 INFO o.s.w.s.FrameworkServlet [main] Initializing Servlet ''
+2023-12-13 11:17:57,084 INFO o.s.w.s.FrameworkServlet [main] Completed initialization in 0 ms
+2023-12-13 11:17:57,133 INFO o.s.b.StartupInfoLogger [main] Started UserEndpointTest in 8.971 seconds (process running for 11.153)
+2023-12-13 11:18:06,967 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-13 11:18:06,971 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-12-13 11:18:06,980 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-12-13 11:45:21,280 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.example.todorest.endpoint.UserEndpointTest]: UserEndpointTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-12-13 11:45:21,443 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.example.todorest.TodoRestApplication for test class com.example.todorest.endpoint.UserEndpointTest
+2023-12-13 11:45:23,105 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-12-13 11:45:23,173 INFO o.s.b.StartupInfoLogger [main] Starting UserEndpointTest using Java 19.0.2 with PID 8668 (started by Arman in C:\Users\Arman\IdeaProjects\todo-rest)
+2023-12-13 11:45:23,175 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-12-13 11:45:24,099 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-13 11:45:24,169 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 60 ms. Found 3 JPA repository interfaces.
+2023-12-13 11:45:24,754 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-12-13 11:45:25,086 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@779b4f9c
+2023-12-13 11:45:25,088 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-12-13 11:45:25,615 INFO l.l.c.JavaLogger [main] Reading from todorest.DATABASECHANGELOG
+2023-12-13 11:45:25,622 INFO l.l.c.JavaLogger [main] Changelog query completed.
+2023-12-13 11:45:25,752 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-13 11:45:25,816 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-12-13 11:45:25,820 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-12-13 11:45:26,026 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 11:45:26,039 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-13 11:45:26,080 INFO o.h.e.j.d.i.DialectFactoryImpl [main] HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.34
+2023-12-13 11:45:26,266 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 11:45:26,831 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-13 11:45:26,925 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-13 11:45:27,893 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-13 11:45:28,612 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1979d616, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6272936b, org.springframework.security.web.context.SecurityContextHolderFilter@570cef1e, org.springframework.security.web.header.HeaderWriterFilter@e9fa0ea, org.springframework.security.web.authentication.logout.LogoutFilter@16124894, com.example.todorest.filter.JWTAuthenticationTokenFilter@26fee641, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1264dbc9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@34d08905, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7da6e22a, org.springframework.security.web.session.SessionManagementFilter@7da4c956, org.springframework.security.web.access.ExceptionTranslationFilter@5ca8157c, org.springframework.security.web.access.intercept.AuthorizationFilter@48bafe39]
+2023-12-13 11:45:29,391 INFO o.s.m.w.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2023-12-13 11:45:29,392 INFO o.s.w.s.FrameworkServlet [main] Initializing Servlet ''
+2023-12-13 11:45:29,392 INFO o.s.w.s.FrameworkServlet [main] Completed initialization in 0 ms
+2023-12-13 11:45:29,418 INFO o.s.b.StartupInfoLogger [main] Started UserEndpointTest in 6.899 seconds (process running for 8.933)
+2023-12-13 11:45:29,676 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-13 11:45:29,678 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-12-13 11:45:29,688 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-12-13 11:46:02,046 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.example.todorest.endpoint.UserEndpointTest]: UserEndpointTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-12-13 11:46:02,195 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.example.todorest.TodoRestApplication for test class com.example.todorest.endpoint.UserEndpointTest
+2023-12-13 11:46:03,861 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-12-13 11:46:03,929 INFO o.s.b.StartupInfoLogger [main] Starting UserEndpointTest using Java 19.0.2 with PID 12948 (started by Arman in C:\Users\Arman\IdeaProjects\todo-rest)
+2023-12-13 11:46:03,930 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-12-13 11:46:04,915 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-13 11:46:05,007 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 79 ms. Found 3 JPA repository interfaces.
+2023-12-13 11:46:05,680 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-12-13 11:46:06,020 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@779b4f9c
+2023-12-13 11:46:06,022 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-12-13 11:46:06,658 INFO l.l.c.JavaLogger [main] Reading from todorest.DATABASECHANGELOG
+2023-12-13 11:46:06,665 INFO l.l.c.JavaLogger [main] Changelog query completed.
+2023-12-13 11:46:06,829 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-13 11:46:06,911 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-12-13 11:46:06,916 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-12-13 11:46:07,125 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 11:46:07,139 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-13 11:46:07,225 INFO o.h.e.j.d.i.DialectFactoryImpl [main] HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.34
+2023-12-13 11:46:07,460 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 11:46:07,770 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.example.todorest.endpoint.UserEndpointTest]: UserEndpointTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-12-13 11:46:07,972 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.example.todorest.TodoRestApplication for test class com.example.todorest.endpoint.UserEndpointTest
+2023-12-13 11:46:08,006 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-13 11:46:08,091 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-13 11:46:09,176 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-13 11:46:09,717 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-12-13 11:46:09,782 INFO o.s.b.StartupInfoLogger [main] Starting UserEndpointTest using Java 19.0.2 with PID 7728 (started by Arman in C:\Users\Arman\IdeaProjects\todo-rest)
+2023-12-13 11:46:09,784 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-12-13 11:46:09,885 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1979d616, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6272936b, org.springframework.security.web.context.SecurityContextHolderFilter@570cef1e, org.springframework.security.web.header.HeaderWriterFilter@e9fa0ea, org.springframework.security.web.authentication.logout.LogoutFilter@16124894, com.example.todorest.filter.JWTAuthenticationTokenFilter@26fee641, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1264dbc9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@34d08905, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7da6e22a, org.springframework.security.web.session.SessionManagementFilter@7da4c956, org.springframework.security.web.access.ExceptionTranslationFilter@5ca8157c, org.springframework.security.web.access.intercept.AuthorizationFilter@48bafe39]
+2023-12-13 11:46:10,564 INFO o.s.m.w.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2023-12-13 11:46:10,564 INFO o.s.w.s.FrameworkServlet [main] Initializing Servlet ''
+2023-12-13 11:46:10,565 INFO o.s.w.s.FrameworkServlet [main] Completed initialization in 1 ms
+2023-12-13 11:46:10,587 INFO o.s.b.StartupInfoLogger [main] Started UserEndpointTest in 7.28 seconds (process running for 9.298)
+2023-12-13 11:46:10,766 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-13 11:46:10,911 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 127 ms. Found 3 JPA repository interfaces.
+2023-12-13 11:46:11,117 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-13 11:46:11,122 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-12-13 11:46:11,146 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-12-13 11:46:11,794 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-12-13 11:46:12,417 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@779b4f9c
+2023-12-13 11:46:12,421 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-12-13 11:46:13,172 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-13 11:46:13,226 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-12-13 11:46:13,228 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-12-13 11:46:13,341 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 11:46:13,350 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-13 11:46:13,383 INFO o.h.e.j.d.i.DialectFactoryImpl [main] HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.34
+2023-12-13 11:46:49,832 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.example.todorest.endpoint.UserEndpointTest]: UserEndpointTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-12-13 11:46:49,986 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.example.todorest.TodoRestApplication for test class com.example.todorest.endpoint.UserEndpointTest
+2023-12-13 11:46:51,701 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-12-13 11:46:51,754 INFO o.s.b.StartupInfoLogger [main] Starting UserEndpointTest using Java 19.0.2 with PID 14648 (started by Arman in C:\Users\Arman\IdeaProjects\todo-rest)
+2023-12-13 11:46:51,755 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-12-13 11:46:52,818 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-13 11:46:52,914 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 78 ms. Found 3 JPA repository interfaces.
+2023-12-13 11:46:53,541 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-12-13 11:46:53,851 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@779b4f9c
+2023-12-13 11:46:53,852 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-12-13 11:46:54,594 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-13 11:46:54,650 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-12-13 11:46:54,652 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-12-13 11:46:54,773 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 11:46:54,788 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-13 11:46:54,828 INFO o.h.e.j.d.i.DialectFactoryImpl [main] HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.34
+2023-12-13 11:46:55,026 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 11:46:55,524 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-13 11:46:55,605 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-13 11:46:56,603 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-13 11:46:57,213 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@48bafe39, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@608c03e3, org.springframework.security.web.context.SecurityContextHolderFilter@7c5c53e5, org.springframework.security.web.header.HeaderWriterFilter@5ca8157c, org.springframework.security.web.authentication.logout.LogoutFilter@5a5c041f, com.example.todorest.filter.JWTAuthenticationTokenFilter@26fee641, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@570cef1e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@47b6f580, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1979d616, org.springframework.security.web.session.SessionManagementFilter@3c511385, org.springframework.security.web.access.ExceptionTranslationFilter@30a1b9b0, org.springframework.security.web.access.intercept.AuthorizationFilter@5765cd21]
+2023-12-13 11:46:57,911 INFO o.s.m.w.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2023-12-13 11:46:57,911 INFO o.s.w.s.FrameworkServlet [main] Initializing Servlet ''
+2023-12-13 11:46:57,912 INFO o.s.w.s.FrameworkServlet [main] Completed initialization in 1 ms
+2023-12-13 11:46:57,936 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-13 11:46:57,941 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-12-13 11:46:57,953 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-12-13 11:46:57,953 INFO o.s.b.StartupInfoLogger [main] Started UserEndpointTest in 6.832 seconds (process running for 8.891)
+2023-12-13 11:47:08,158 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.example.todorest.endpoint.UserEndpointTest]: UserEndpointTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-12-13 11:47:08,318 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.example.todorest.TodoRestApplication for test class com.example.todorest.endpoint.UserEndpointTest
+2023-12-13 11:47:09,891 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-12-13 11:47:09,952 INFO o.s.b.StartupInfoLogger [main] Starting UserEndpointTest using Java 19.0.2 with PID 14548 (started by Arman in C:\Users\Arman\IdeaProjects\todo-rest)
+2023-12-13 11:47:09,954 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-12-13 11:47:10,944 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-13 11:47:11,022 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 68 ms. Found 3 JPA repository interfaces.
+2023-12-13 11:47:11,725 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-12-13 11:47:12,032 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@779b4f9c
+2023-12-13 11:47:12,034 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-12-13 11:47:12,591 INFO l.l.c.JavaLogger [main] Reading from todorest.DATABASECHANGELOG
+2023-12-13 11:47:12,598 INFO l.l.c.JavaLogger [main] Changelog query completed.
+2023-12-13 11:47:12,742 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-13 11:47:12,792 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-12-13 11:47:12,794 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-12-13 11:47:12,915 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 11:47:12,930 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-13 11:47:12,972 INFO o.h.e.j.d.i.DialectFactoryImpl [main] HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.34
+2023-12-13 11:47:13,164 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 11:47:13,642 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-13 11:47:13,727 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-13 11:47:14,716 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-13 11:47:15,438 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1979d616, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6272936b, org.springframework.security.web.context.SecurityContextHolderFilter@570cef1e, org.springframework.security.web.header.HeaderWriterFilter@e9fa0ea, org.springframework.security.web.authentication.logout.LogoutFilter@16124894, com.example.todorest.filter.JWTAuthenticationTokenFilter@26fee641, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1264dbc9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@34d08905, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7da6e22a, org.springframework.security.web.session.SessionManagementFilter@7da4c956, org.springframework.security.web.access.ExceptionTranslationFilter@5ca8157c, org.springframework.security.web.access.intercept.AuthorizationFilter@48bafe39]
+2023-12-13 11:47:16,185 INFO o.s.m.w.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2023-12-13 11:47:16,186 INFO o.s.w.s.FrameworkServlet [main] Initializing Servlet ''
+2023-12-13 11:47:16,188 INFO o.s.w.s.FrameworkServlet [main] Completed initialization in 0 ms
+2023-12-13 11:47:16,224 INFO o.s.b.StartupInfoLogger [main] Started UserEndpointTest in 6.818 seconds (process running for 8.824)
+2023-12-13 11:47:16,492 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-13 11:47:16,494 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-12-13 11:47:16,503 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-12-13 11:47:23,097 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.example.todorest.endpoint.UserEndpointTest]: UserEndpointTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-12-13 11:47:23,255 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.example.todorest.TodoRestApplication for test class com.example.todorest.endpoint.UserEndpointTest
+2023-12-13 11:47:24,996 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-12-13 11:47:25,062 INFO o.s.b.StartupInfoLogger [main] Starting UserEndpointTest using Java 19.0.2 with PID 4796 (started by Arman in C:\Users\Arman\IdeaProjects\todo-rest)
+2023-12-13 11:47:25,065 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-12-13 11:47:26,043 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-13 11:47:26,126 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 73 ms. Found 3 JPA repository interfaces.
+2023-12-13 11:47:26,857 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-12-13 11:47:27,192 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@779b4f9c
+2023-12-13 11:47:27,193 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-12-13 11:47:27,729 INFO l.l.c.JavaLogger [main] Reading from todorest.DATABASECHANGELOG
+2023-12-13 11:47:27,735 INFO l.l.c.JavaLogger [main] Changelog query completed.
+2023-12-13 11:47:27,868 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-13 11:47:27,942 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-12-13 11:47:27,947 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-12-13 11:47:28,106 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 11:47:28,121 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-13 11:47:28,161 INFO o.h.e.j.d.i.DialectFactoryImpl [main] HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.34
+2023-12-13 11:47:28,360 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 11:47:28,853 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-13 11:47:28,939 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-13 11:47:29,952 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-13 11:47:30,618 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1979d616, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6272936b, org.springframework.security.web.context.SecurityContextHolderFilter@570cef1e, org.springframework.security.web.header.HeaderWriterFilter@e9fa0ea, org.springframework.security.web.authentication.logout.LogoutFilter@16124894, com.example.todorest.filter.JWTAuthenticationTokenFilter@26fee641, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1264dbc9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@34d08905, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7da6e22a, org.springframework.security.web.session.SessionManagementFilter@7da4c956, org.springframework.security.web.access.ExceptionTranslationFilter@5ca8157c, org.springframework.security.web.access.intercept.AuthorizationFilter@48bafe39]
+2023-12-13 11:47:31,209 INFO o.s.m.w.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2023-12-13 11:47:31,210 INFO o.s.w.s.FrameworkServlet [main] Initializing Servlet ''
+2023-12-13 11:47:31,211 INFO o.s.w.s.FrameworkServlet [main] Completed initialization in 1 ms
+2023-12-13 11:47:31,240 INFO o.s.b.StartupInfoLogger [main] Started UserEndpointTest in 6.846 seconds (process running for 8.903)
+2023-12-13 11:47:31,438 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-13 11:47:31,442 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-12-13 11:47:31,450 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-12-13 11:47:42,743 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.example.todorest.endpoint.UserEndpointTest]: UserEndpointTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-12-13 11:47:42,897 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.example.todorest.TodoRestApplication for test class com.example.todorest.endpoint.UserEndpointTest
+2023-12-13 11:47:44,562 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-12-13 11:47:44,624 INFO o.s.b.StartupInfoLogger [main] Starting UserEndpointTest using Java 19.0.2 with PID 9124 (started by Arman in C:\Users\Arman\IdeaProjects\todo-rest)
+2023-12-13 11:47:44,625 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-12-13 11:47:45,622 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-13 11:47:45,714 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 81 ms. Found 3 JPA repository interfaces.
+2023-12-13 11:47:46,361 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-12-13 11:47:46,701 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@779b4f9c
+2023-12-13 11:47:46,703 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-12-13 11:47:47,284 INFO l.l.c.JavaLogger [main] Reading from todorest.DATABASECHANGELOG
+2023-12-13 11:47:47,290 INFO l.l.c.JavaLogger [main] Changelog query completed.
+2023-12-13 11:47:47,411 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-13 11:47:47,469 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-12-13 11:47:47,471 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-12-13 11:47:47,596 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 11:47:47,607 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-13 11:47:47,653 INFO o.h.e.j.d.i.DialectFactoryImpl [main] HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.34
+2023-12-13 11:47:47,840 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 11:47:48,293 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-13 11:47:48,361 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-13 11:47:49,317 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-13 11:47:50,110 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@48bafe39, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@608c03e3, org.springframework.security.web.context.SecurityContextHolderFilter@7c5c53e5, org.springframework.security.web.header.HeaderWriterFilter@5ca8157c, org.springframework.security.web.authentication.logout.LogoutFilter@5a5c041f, com.example.todorest.filter.JWTAuthenticationTokenFilter@26fee641, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@570cef1e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@47b6f580, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1979d616, org.springframework.security.web.session.SessionManagementFilter@3c511385, org.springframework.security.web.access.ExceptionTranslationFilter@30a1b9b0, org.springframework.security.web.access.intercept.AuthorizationFilter@5765cd21]
+2023-12-13 11:47:50,868 INFO o.s.m.w.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2023-12-13 11:47:50,869 INFO o.s.w.s.FrameworkServlet [main] Initializing Servlet ''
+2023-12-13 11:47:50,870 INFO o.s.w.s.FrameworkServlet [main] Completed initialization in 1 ms
+2023-12-13 11:47:50,897 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-13 11:47:50,903 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-12-13 11:47:50,915 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-12-13 11:47:50,915 INFO o.s.b.StartupInfoLogger [main] Started UserEndpointTest in 6.879 seconds (process running for 8.927)
+2023-12-13 11:48:07,368 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.example.todorest.endpoint.UserEndpointTest]: UserEndpointTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-12-13 11:48:07,513 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.example.todorest.TodoRestApplication for test class com.example.todorest.endpoint.UserEndpointTest
+2023-12-13 11:48:09,292 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-12-13 11:48:09,371 INFO o.s.b.StartupInfoLogger [main] Starting UserEndpointTest using Java 19.0.2 with PID 3364 (started by Arman in C:\Users\Arman\IdeaProjects\todo-rest)
+2023-12-13 11:48:09,374 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-12-13 11:48:10,437 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-13 11:48:10,533 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 80 ms. Found 3 JPA repository interfaces.
+2023-12-13 11:48:11,268 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-12-13 11:48:11,602 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@779b4f9c
+2023-12-13 11:48:11,603 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-12-13 11:48:12,151 INFO l.l.c.JavaLogger [main] Reading from todorest.DATABASECHANGELOG
+2023-12-13 11:48:12,156 INFO l.l.c.JavaLogger [main] Changelog query completed.
+2023-12-13 11:48:12,307 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-13 11:48:12,371 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-12-13 11:48:12,372 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-12-13 11:48:12,503 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 11:48:12,515 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-13 11:48:12,554 INFO o.h.e.j.d.i.DialectFactoryImpl [main] HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.34
+2023-12-13 11:48:12,731 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 11:48:13,247 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-13 11:48:13,322 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-13 11:48:14,300 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-13 11:48:14,912 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1979d616, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6272936b, org.springframework.security.web.context.SecurityContextHolderFilter@570cef1e, org.springframework.security.web.header.HeaderWriterFilter@e9fa0ea, org.springframework.security.web.authentication.logout.LogoutFilter@16124894, com.example.todorest.filter.JWTAuthenticationTokenFilter@26fee641, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1264dbc9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@34d08905, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7da6e22a, org.springframework.security.web.session.SessionManagementFilter@7da4c956, org.springframework.security.web.access.ExceptionTranslationFilter@5ca8157c, org.springframework.security.web.access.intercept.AuthorizationFilter@48bafe39]
+2023-12-13 11:48:15,512 INFO o.s.m.w.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2023-12-13 11:48:15,512 INFO o.s.w.s.FrameworkServlet [main] Initializing Servlet ''
+2023-12-13 11:48:15,514 INFO o.s.w.s.FrameworkServlet [main] Completed initialization in 0 ms
+2023-12-13 11:48:15,534 INFO o.s.b.StartupInfoLogger [main] Started UserEndpointTest in 6.885 seconds (process running for 8.925)
+2023-12-13 11:48:15,741 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-13 11:48:15,743 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-12-13 11:48:15,750 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-12-13 11:52:18,260 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.example.todorest.endpoint.UserEndpointTest]: UserEndpointTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-12-13 11:52:18,422 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.example.todorest.TodoRestApplication for test class com.example.todorest.endpoint.UserEndpointTest
+2023-12-13 11:52:20,074 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-12-13 11:52:20,131 INFO o.s.b.StartupInfoLogger [main] Starting UserEndpointTest using Java 19.0.2 with PID 9680 (started by Arman in C:\Users\Arman\IdeaProjects\todo-rest)
+2023-12-13 11:52:20,133 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-12-13 11:52:21,215 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-13 11:52:21,303 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 75 ms. Found 3 JPA repository interfaces.
+2023-12-13 11:52:21,934 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-12-13 11:52:22,258 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@294ebe11
+2023-12-13 11:52:22,259 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-12-13 11:52:22,842 INFO l.l.c.JavaLogger [main] Reading from todorest.DATABASECHANGELOG
+2023-12-13 11:52:22,848 INFO l.l.c.JavaLogger [main] Changelog query completed.
+2023-12-13 11:52:22,990 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-13 11:52:23,048 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-12-13 11:52:23,050 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-12-13 11:52:23,196 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 11:52:23,210 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-13 11:52:23,252 INFO o.h.e.j.d.i.DialectFactoryImpl [main] HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.34
+2023-12-13 11:52:23,448 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 11:52:23,943 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-13 11:52:24,027 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-13 11:52:24,936 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-13 11:52:25,829 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@f55ecec, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@61c1be2f, org.springframework.security.web.context.SecurityContextHolderFilter@33cee31a, org.springframework.security.web.header.HeaderWriterFilter@192f807, org.springframework.security.web.authentication.logout.LogoutFilter@230383a7, com.example.todorest.filter.JWTAuthenticationTokenFilter@4a571516, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1c619a77, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@27a57c66, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@423325e0, org.springframework.security.web.session.SessionManagementFilter@30a1b9b0, org.springframework.security.web.access.ExceptionTranslationFilter@4487dce, org.springframework.security.web.access.intercept.AuthorizationFilter@5a4ceb1]
+2023-12-13 11:52:26,536 INFO o.s.m.w.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2023-12-13 11:52:26,538 INFO o.s.w.s.FrameworkServlet [main] Initializing Servlet ''
+2023-12-13 11:52:26,538 INFO o.s.w.s.FrameworkServlet [main] Completed initialization in 0 ms
+2023-12-13 11:52:26,564 INFO o.s.b.StartupInfoLogger [main] Started UserEndpointTest in 6.919 seconds (process running for 9.075)
+2023-12-13 11:52:27,188 INFO c.e.t.s.i.UserServiceImpl [main] User has successfully registered
+2023-12-13 11:52:27,488 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-13 11:52:27,492 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-12-13 11:52:27,500 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-12-13 12:03:30,681 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.example.todorest.endpoint.UserEndpointTest]: UserEndpointTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-12-13 12:03:30,821 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.example.todorest.TodoRestApplication for test class com.example.todorest.endpoint.UserEndpointTest
+2023-12-13 12:03:41,043 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-12-13 12:03:41,097 INFO o.s.b.StartupInfoLogger [main] Starting UserEndpointTest using Java 19.0.2 with PID 5996 (started by Arman in C:\Users\Arman\IdeaProjects\todo-rest)
+2023-12-13 12:03:41,099 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-12-13 12:03:41,963 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-13 12:03:42,047 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 60 ms. Found 3 JPA repository interfaces.
+2023-12-13 12:03:43,069 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-12-13 12:03:43,750 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5cd701e4
+2023-12-13 12:03:43,756 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-12-13 12:03:44,461 INFO l.l.c.JavaLogger [main] Reading from todorest.DATABASECHANGELOG
+2023-12-13 12:03:44,472 INFO l.l.c.JavaLogger [main] Changelog query completed.
+2023-12-13 12:03:44,637 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-13 12:03:44,736 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-12-13 12:03:44,741 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-12-13 12:03:45,009 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 12:03:45,031 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-13 12:03:45,124 INFO o.h.e.j.d.i.DialectFactoryImpl [main] HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.34
+2023-12-13 12:03:45,488 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 12:03:46,432 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-13 12:03:46,567 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-13 12:03:48,093 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-13 12:03:49,058 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2762bd70, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@b94c22d, org.springframework.security.web.context.SecurityContextHolderFilter@3dab9366, org.springframework.security.web.header.HeaderWriterFilter@7f9ebcfe, org.springframework.security.web.authentication.logout.LogoutFilter@5effc15d, com.example.todorest.filter.JWTAuthenticationTokenFilter@1a983294, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@76b9056d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@20bc6f4d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5fb4870b, org.springframework.security.web.session.SessionManagementFilter@2984edab, org.springframework.security.web.access.ExceptionTranslationFilter@7cf618f3, org.springframework.security.web.access.intercept.AuthorizationFilter@6cf71064]
+2023-12-13 12:03:49,773 INFO o.s.m.w.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2023-12-13 12:03:49,773 INFO o.s.w.s.FrameworkServlet [main] Initializing Servlet ''
+2023-12-13 12:03:49,775 INFO o.s.w.s.FrameworkServlet [main] Completed initialization in 1 ms
+2023-12-13 12:03:49,836 INFO o.s.b.StartupInfoLogger [main] Started UserEndpointTest in 9.151 seconds (process running for 20.056)
+2023-12-13 12:09:59,753 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m15s886ms903µs300ns).
+2023-12-13 12:09:59,800 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-13 12:09:59,802 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-12-13 12:09:59,812 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-12-13 12:11:55,186 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.example.todorest.endpoint.UserEndpointTest]: UserEndpointTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-12-13 12:11:55,361 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.example.todorest.TodoRestApplication for test class com.example.todorest.endpoint.UserEndpointTest
+2023-12-13 12:11:56,829 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-12-13 12:11:56,882 INFO o.s.b.StartupInfoLogger [main] Starting UserEndpointTest using Java 19.0.2 with PID 5168 (started by Arman in C:\Users\Arman\IdeaProjects\todo-rest)
+2023-12-13 12:11:56,883 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-12-13 12:11:57,784 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-13 12:11:57,895 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 83 ms. Found 3 JPA repository interfaces.
+2023-12-13 12:11:59,045 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-12-13 12:11:59,700 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5cd701e4
+2023-12-13 12:11:59,705 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-12-13 12:12:00,414 INFO l.l.c.JavaLogger [main] Reading from todorest.DATABASECHANGELOG
+2023-12-13 12:12:00,423 INFO l.l.c.JavaLogger [main] Changelog query completed.
+2023-12-13 12:12:00,613 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-13 12:12:00,731 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-12-13 12:12:00,735 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-12-13 12:12:01,028 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 12:12:01,049 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-13 12:12:01,123 INFO o.h.e.j.d.i.DialectFactoryImpl [main] HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.34
+2023-12-13 12:12:01,463 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 12:12:02,351 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-13 12:12:02,476 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-13 12:12:03,735 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-13 12:12:04,673 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6cf71064, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4b9b57d9, org.springframework.security.web.context.SecurityContextHolderFilter@2a6dfbb2, org.springframework.security.web.header.HeaderWriterFilter@7cf618f3, org.springframework.security.web.authentication.logout.LogoutFilter@2f6fcc70, com.example.todorest.filter.JWTAuthenticationTokenFilter@1a983294, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3dab9366, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4bcfa08b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2762bd70, org.springframework.security.web.session.SessionManagementFilter@609a996f, org.springframework.security.web.access.ExceptionTranslationFilter@7c58c10f, org.springframework.security.web.access.intercept.AuthorizationFilter@4c24063c]
+2023-12-13 12:12:05,360 INFO o.s.m.w.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2023-12-13 12:12:05,360 INFO o.s.w.s.FrameworkServlet [main] Initializing Servlet ''
+2023-12-13 12:12:05,361 INFO o.s.w.s.FrameworkServlet [main] Completed initialization in 1 ms
+2023-12-13 12:12:05,414 INFO o.s.b.StartupInfoLogger [main] Started UserEndpointTest in 8.905 seconds (process running for 11.105)
+2023-12-13 12:12:12,626 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-13 12:12:12,628 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-12-13 12:12:12,640 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-12-13 12:12:22,411 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.example.todorest.endpoint.UserEndpointTest]: UserEndpointTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-12-13 12:12:22,539 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.example.todorest.TodoRestApplication for test class com.example.todorest.endpoint.UserEndpointTest
+2023-12-13 12:12:24,007 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-12-13 12:12:24,061 INFO o.s.b.StartupInfoLogger [main] Starting UserEndpointTest using Java 19.0.2 with PID 18448 (started by Arman in C:\Users\Arman\IdeaProjects\todo-rest)
+2023-12-13 12:12:24,063 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-12-13 12:12:25,010 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-13 12:12:25,107 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 69 ms. Found 3 JPA repository interfaces.
+2023-12-13 12:12:25,837 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-12-13 12:12:26,223 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5cd701e4
+2023-12-13 12:12:26,225 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-12-13 12:12:26,766 INFO l.l.c.JavaLogger [main] Reading from todorest.DATABASECHANGELOG
+2023-12-13 12:12:26,775 INFO l.l.c.JavaLogger [main] Changelog query completed.
+2023-12-13 12:12:26,915 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-13 12:12:26,964 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-12-13 12:12:26,966 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-12-13 12:12:27,101 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 12:12:27,112 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-13 12:12:27,159 INFO o.h.e.j.d.i.DialectFactoryImpl [main] HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.34
+2023-12-13 12:12:27,366 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 12:12:27,906 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-13 12:12:27,994 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-13 12:12:29,025 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-13 12:12:29,981 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2762bd70, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@b94c22d, org.springframework.security.web.context.SecurityContextHolderFilter@3dab9366, org.springframework.security.web.header.HeaderWriterFilter@7f9ebcfe, org.springframework.security.web.authentication.logout.LogoutFilter@5effc15d, com.example.todorest.filter.JWTAuthenticationTokenFilter@1a983294, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@76b9056d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@20bc6f4d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5fb4870b, org.springframework.security.web.session.SessionManagementFilter@2984edab, org.springframework.security.web.access.ExceptionTranslationFilter@7cf618f3, org.springframework.security.web.access.intercept.AuthorizationFilter@6cf71064]
+2023-12-13 12:12:30,864 INFO o.s.m.w.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2023-12-13 12:12:30,865 INFO o.s.w.s.FrameworkServlet [main] Initializing Servlet ''
+2023-12-13 12:12:30,867 INFO o.s.w.s.FrameworkServlet [main] Completed initialization in 1 ms
+2023-12-13 12:12:30,901 INFO o.s.b.StartupInfoLogger [main] Started UserEndpointTest in 7.221 seconds (process running for 9.325)
+2023-12-13 12:12:31,364 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-13 12:12:31,367 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-12-13 12:12:31,383 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-12-13 12:12:37,538 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.example.todorest.endpoint.UserEndpointTest]: UserEndpointTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-12-13 12:12:37,686 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.example.todorest.TodoRestApplication for test class com.example.todorest.endpoint.UserEndpointTest
+2023-12-13 12:12:39,135 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-12-13 12:12:39,190 INFO o.s.b.StartupInfoLogger [main] Starting UserEndpointTest using Java 19.0.2 with PID 11720 (started by Arman in C:\Users\Arman\IdeaProjects\todo-rest)
+2023-12-13 12:12:39,193 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-12-13 12:12:40,450 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-13 12:12:40,560 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 84 ms. Found 3 JPA repository interfaces.
+2023-12-13 12:12:41,289 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-12-13 12:12:41,711 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5cd701e4
+2023-12-13 12:12:41,713 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-12-13 12:12:42,345 INFO l.l.c.JavaLogger [main] Reading from todorest.DATABASECHANGELOG
+2023-12-13 12:12:42,353 INFO l.l.c.JavaLogger [main] Changelog query completed.
+2023-12-13 12:12:42,499 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-13 12:12:42,544 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-12-13 12:12:42,546 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-12-13 12:12:42,670 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 12:12:42,681 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-13 12:12:42,723 INFO o.h.e.j.d.i.DialectFactoryImpl [main] HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.34
+2023-12-13 12:12:42,918 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 12:12:43,449 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-13 12:12:43,531 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-13 12:12:44,643 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-13 12:12:45,554 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6cf71064, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4b9b57d9, org.springframework.security.web.context.SecurityContextHolderFilter@2a6dfbb2, org.springframework.security.web.header.HeaderWriterFilter@7cf618f3, org.springframework.security.web.authentication.logout.LogoutFilter@2f6fcc70, com.example.todorest.filter.JWTAuthenticationTokenFilter@1a983294, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3dab9366, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4bcfa08b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2762bd70, org.springframework.security.web.session.SessionManagementFilter@609a996f, org.springframework.security.web.access.ExceptionTranslationFilter@7c58c10f, org.springframework.security.web.access.intercept.AuthorizationFilter@4c24063c]
+2023-12-13 12:12:46,435 INFO o.s.m.w.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2023-12-13 12:12:46,436 INFO o.s.w.s.FrameworkServlet [main] Initializing Servlet ''
+2023-12-13 12:12:46,437 INFO o.s.w.s.FrameworkServlet [main] Completed initialization in 1 ms
+2023-12-13 12:12:46,490 INFO o.s.b.StartupInfoLogger [main] Started UserEndpointTest in 7.686 seconds (process running for 9.812)
+2023-12-13 12:12:46,985 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-13 12:12:46,988 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-12-13 12:12:46,996 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-12-13 12:12:55,585 INFO o.s.t.c.s.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.example.todorest.endpoint.UserEndpointTest]: UserEndpointTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-12-13 12:12:55,729 INFO o.s.b.t.c.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.example.todorest.TodoRestApplication for test class com.example.todorest.endpoint.UserEndpointTest
+2023-12-13 12:12:57,168 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-12-13 12:12:57,215 INFO o.s.b.StartupInfoLogger [main] Starting UserEndpointTest using Java 19.0.2 with PID 7028 (started by Arman in C:\Users\Arman\IdeaProjects\todo-rest)
+2023-12-13 12:12:57,219 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-12-13 12:12:58,151 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-13 12:12:58,245 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 71 ms. Found 3 JPA repository interfaces.
+2023-12-13 12:12:59,235 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-12-13 12:12:59,925 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5cd701e4
+2023-12-13 12:12:59,930 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-12-13 12:13:00,649 INFO l.l.c.JavaLogger [main] Reading from todorest.DATABASECHANGELOG
+2023-12-13 12:13:00,660 INFO l.l.c.JavaLogger [main] Changelog query completed.
+2023-12-13 12:13:00,838 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-13 12:13:00,947 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-12-13 12:13:00,951 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-12-13 12:13:01,223 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 12:13:01,242 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-13 12:13:01,318 INFO o.h.e.j.d.i.DialectFactoryImpl [main] HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.34
+2023-12-13 12:13:01,665 INFO o.h.b.i.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 12:13:02,582 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-13 12:13:02,713 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-13 12:13:03,831 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-13 12:13:04,632 INFO o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2762bd70, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@b94c22d, org.springframework.security.web.context.SecurityContextHolderFilter@3dab9366, org.springframework.security.web.header.HeaderWriterFilter@7f9ebcfe, org.springframework.security.web.authentication.logout.LogoutFilter@5effc15d, com.example.todorest.filter.JWTAuthenticationTokenFilter@1a983294, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@76b9056d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@20bc6f4d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5fb4870b, org.springframework.security.web.session.SessionManagementFilter@2984edab, org.springframework.security.web.access.ExceptionTranslationFilter@7cf618f3, org.springframework.security.web.access.intercept.AuthorizationFilter@6cf71064]
+2023-12-13 12:13:05,423 INFO o.s.m.w.MockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2023-12-13 12:13:05,423 INFO o.s.w.s.FrameworkServlet [main] Initializing Servlet ''
+2023-12-13 12:13:05,424 INFO o.s.w.s.FrameworkServlet [main] Completed initialization in 0 ms
+2023-12-13 12:13:05,472 INFO o.s.b.StartupInfoLogger [main] Started UserEndpointTest in 8.703 seconds (process running for 10.741)
+2023-12-13 12:14:41,007 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m6s924ms290µs200ns).
+2023-12-13 12:16:40,715 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m59s708ms191µs700ns).
+2023-12-13 12:16:49,118 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-13 12:16:49,122 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-12-13 12:16:49,132 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-12-13 12:31:43,671 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-12-13 12:31:43,703 INFO o.s.b.StartupInfoLogger [restartedMain] Starting TodoRestApplication using Java 17.0.9 with PID 18632 (C:\Users\Arman\IdeaProjects\todo-rest\target\classes started by Arman in C:\Users\Arman\IdeaProjects\todo-rest)
+2023-12-13 12:31:43,704 INFO o.s.b.SpringApplication [restartedMain] The following 1 profile is active: "application.properties"
+2023-12-13 12:31:43,743 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-12-13 12:31:43,744 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-12-13 12:31:44,462 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-13 12:31:44,529 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 56 ms. Found 3 JPA repository interfaces.
+2023-12-13 12:31:45,099 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-12-13 12:31:45,110 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-12-13 12:31:45,111 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-12-13 12:31:45,111 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-12-13 12:31:45,160 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-12-13 12:31:45,161 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1417 ms
+2023-12-13 12:31:45,243 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-12-13 12:31:45,504 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@239d9ff
+2023-12-13 12:31:45,506 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-12-13 12:31:45,952 INFO l.l.c.JavaLogger [restartedMain] Reading from todorest.DATABASECHANGELOG
+2023-12-13 12:31:45,958 INFO l.l.c.JavaLogger [restartedMain] Changelog query completed.
+2023-12-13 12:31:46,029 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-13 12:31:46,067 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-12-13 12:31:46,070 INFO o.h.c.Environment [restartedMain] HHH000406: Using bytecode reflection optimizer
+2023-12-13 12:31:46,224 INFO o.h.b.i.BytecodeProviderInitiator [restartedMain] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 12:31:46,355 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-13 12:31:46,390 INFO o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.34
+2023-12-13 12:31:46,577 INFO o.h.b.i.BytecodeProviderInitiator [restartedMain] HHH000021: Bytecode provider name : bytebuddy
+2023-12-13 12:31:47,167 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-13 12:31:47,252 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-13 12:31:47,731 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-13 12:31:47,961 INFO o.s.s.w.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@30398f0e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3e5d75d7, org.springframework.security.web.context.SecurityContextHolderFilter@2c131fa5, org.springframework.security.web.header.HeaderWriterFilter@12caeca, org.springframework.security.web.authentication.logout.LogoutFilter@58e26cb, com.example.todorest.filter.JWTAuthenticationTokenFilter@706871ca, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4e8c42e5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@76b36304, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4bfa0e7b, org.springframework.security.web.session.SessionManagementFilter@2d4a7ebc, org.springframework.security.web.access.ExceptionTranslationFilter@62feae19, org.springframework.security.web.access.intercept.AuthorizationFilter@68dcc6d8]
+2023-12-13 12:31:48,153 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-12-13 12:31:48,170 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-12-13 12:31:48,190 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-12-13 12:31:48,199 INFO o.s.b.StartupInfoLogger [restartedMain] Started TodoRestApplication in 4.791 seconds (process running for 5.881)
+2023-12-13 12:33:02,838 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-3] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-13 12:33:02,838 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-3] Initializing Servlet 'dispatcherServlet'
+2023-12-13 12:33:02,841 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-3] Completed initialization in 2 ms
+2023-12-13 12:33:12,345 INFO c.e.t.s.i.UserServiceImpl [http-nio-8080-exec-5] User has successfully registered
+2023-12-13 12:33:12,370 INFO c.e.t.s.i.UserServiceImpl [http-nio-8080-exec-5] User's verification message has been send to the user with the  40 id
+2023-12-13 12:33:54,543 INFO c.e.t.s.i.UserServiceImpl [http-nio-8080-exec-4] User  with the  40 id has verified his account
+2023-12-13 12:35:13,471 INFO c.e.t.s.i.CategoryServiceImpl [http-nio-8080-exec-9] Category has been successfully added
+2023-12-13 12:36:01,003 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-6] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<java.util.List<com.example.todorest.dto.UserDto>> com.example.todorest.endpoint.UserEndpoint.search(int,int,com.example.todorest.dto.UserSearchDto)]
